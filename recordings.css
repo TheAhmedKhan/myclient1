@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*NAV---------------------------------------------------------------------------------------------------*/
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    box-shadow: 12px 12px 2px 1px rgba(25, 25, 29, 0.2);
+
+}
+.navlinks{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+    
+    margin-right: 10%;
+
+    
+    
+}
+.logoimg{
+    display: flex;
+    margin-left: 40%;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+}
+@media(max-width:600px){
+    .logoimg{
+        display: flex;
+        width: 80vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100vw;
+        overflow: hidden;
+    }
+    .navlinks{
+        display: flex;
+       
+        flex-wrap: nowrap;
+    
+        
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    li{
+        list-style: none;
+       
+    }
+   
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*Recording----------------------------------------------------------------------------------------------*/
+h3{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+   text-align: center;
+   box-shadow: 12px 12px 2px 1px rgba(25, 25, 29, 0.2);
+   
+}
+h4{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.audiocontainer{
+    display: none;
+}
+/*-------------------------------------------------------------------------------------------------------*/
