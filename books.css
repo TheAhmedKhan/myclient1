@@ -87,3 +87,17 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
 }
+
+footer{
+    margin-top: 4rem;
+    border-top: 2px solid rgb(65, 57, 57);
+}
+.copyright{
+    margin: 10%;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    
+   
+    
+}
