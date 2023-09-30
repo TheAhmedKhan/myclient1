@@ -229,3 +229,20 @@ footer{
     to {opacity: 1}
   }
 /*-------------------------------------------------------------------------------------------------------*/
+/*button-------------------------------------------------------------------------------------------------*/
+button{
+    margin-bottom: 2rem;
+    margin-left: 7.7%;
+    height: 5rem;
+    width: 85%;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 2px solid rgba(25, 25, 29, 0.2);
+    border-radius: 50px 50px 50px 50px;
+    background-color: yellow;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -ms-border-radius: 50px 50px 50px 50px;
+    -o-border-radius: 50px 50px 50px 50px;
+}
+/*-------------------------------------------------------------------------------------------------------*/
